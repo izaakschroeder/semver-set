@@ -1,13 +1,18 @@
 {
-	"name": "semver-set",
-	"version": "0.1.1",
-	"description": "Set operations for semver ranges.",
-	"author": "Izaak Schroeder <izaak.schroeder@gmail.com>",
-	"main": "lib/index.js",
-	"dependencies": {
-		"cartesian-product": "^2.1.2",
-		"invariant": "^2.1.0",
-		"semver": "^4.3.6",
-		"lodash": "^3.9.3"
-	}
+  "name": "semver-set",
+  "version": "0.1.1",
+  "description": "Set operations for semver ranges.",
+  "author": "Izaak Schroeder <izaak.schroeder@gmail.com>",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node tests/intersect-test.js"
+  },
+  "dependencies": {
+    "cartesian-product": "^2.1.2",
+    "invariant": "^2.1.0",
+    "semver": "^4.3.6"
+  },
+  "devDependencies": {
+    "ospec": "1.1.0"
+  }
 }
