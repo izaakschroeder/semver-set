@@ -4,6 +4,7 @@
 	"description": "Set operations for semver ranges.",
 	"author": "Izaak Schroeder <izaak.schroeder@gmail.com>",
 	"main": "lib/index.js",
+	"license": "MIT",
 	"dependencies": {
 		"cartesian-product": "^2.1.2",
 		"invariant": "^2.1.0",
