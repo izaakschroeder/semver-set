@@ -10,5 +10,9 @@
 		"invariant": "^2.1.0",
 		"semver": "^4.3.6",
 		"lodash": "^3.9.3"
-	}
+	},
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/izaakschroeder/semver-set.git"
+  }
 }
